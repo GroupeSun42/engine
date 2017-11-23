@@ -43,4 +43,4 @@ sed -i "s=# config.vm.synced_folder \"../data\", \"/vagrant_data\"=config.vm.syn
 
 vagrant up
 vagrant ssh
-vagrant status
+vagrant global-status
